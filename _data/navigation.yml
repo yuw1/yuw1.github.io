@@ -1,0 +1,7 @@
+main:
+  - title: "所有文章"
+    url: "/posts/"
+  - title: "标签"
+    url: "/tags/"
+  - title: "关于我"
+    url: "/about/"

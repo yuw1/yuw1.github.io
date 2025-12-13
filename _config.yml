@@ -1,0 +1,83 @@
+# -------------------------------------------------------------
+# Site Settings
+# -------------------------------------------------------------
+locale: zh-CN
+title: "分久必合,合久必分"
+title_separator: "|"
+subtitle: "Version 2.0"
+name: "Calvin"
+description: "数据民工的辩证法"
+url: "https://wyu.space"
+baseurl: ""
+timezone: Asia/Shanghai
+
+# -------------------------------------------------------------
+# Theme & Plugins
+# -------------------------------------------------------------
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "aqua"
+plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# -------------------------------------------------------------
+# Author Information
+# -------------------------------------------------------------
+author:
+  name: "Calvin"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "时移势易,合久必分."
+  location: "China"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/yuw1"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:calvin@wyu.space"
+
+# -------------------------------------------------------------
+# Core Features
+# -------------------------------------------------------------
+paginate: 5
+paginate_path: "/page:num/"
+breadcrumbs: true
+enable_copy_code_button: true
+favicon: "favicon.ico"
+
+# -------------------------------------------------------------
+# Defaults for Posts and Pages
+# -------------------------------------------------------------
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "single"
+      author_profile: true
+      read_time: true
+      share: true
+      related: true
+      comments: true
+      toc: true
+      toc_label: "文章目录"
+      toc_icon: "fas fa-stream"
+  # _pages
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "single"
+      author_profile: true
+      read_time: true
+      share: true
+      related: true
+      comments: true
+      toc: true
+      toc_label: "文章目录"
+      toc_icon: "fas fa-stream"
